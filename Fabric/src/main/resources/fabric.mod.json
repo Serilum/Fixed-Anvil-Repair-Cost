@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "fixedanvilrepaircost",
-  "version": "3.2",
+  "version": "3.3",
 
   "name": "Fixed Anvil Repair Cost",
   "description": "Allows setting the level and material cost of repairing an item on an anvil to always be the same configurable amount and also allows setting how much percent is repaired.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/fixed-anvil-repair-cost",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Fixed%20Anvil%20Repair%20Cost",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Fixed%20Anvil%20Repair%20Cost"
+    "homepage": "https://serilum.com/mod/fixed-anvil-repair-cost",
+    "sources": "https://github.com/Serilum/Fixed-Anvil-Repair-Cost",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Fixed%20Anvil%20Repair%20Cost"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.3"
+    "collective": ">=7.21"
   },
 
   "custom": {
