@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="fixedanvilrepaircost"
-version="3.3"
+version="3.4"
 displayName="Fixed Anvil Repair Cost"
 displayURL="https://serilum.com/mod/fixed-anvil-repair-cost"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Allows setting the level and material cost of repairing an item o
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jeremy Langford, Michael W. S., Rare Students, Shana Gitnick, Tyler Behl   
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, Michael W. S., Nahuel Fernandez, Shana Gitnick, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.fixedanvilrepaircost]]
     modId="collective"
     type="required"
-    versionRange="[7.61,)"
+    versionRange="[7.78,)"
     ordering="NONE"
     side="BOTH"
 

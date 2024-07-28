@@ -1,6 +1,7 @@
 package com.natamus.fixedanvilrepaircost;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveAnvilEvents;
 import com.natamus.fixedanvilrepaircost.events.RepairEvent;
 import com.natamus.fixedanvilrepaircost.util.Reference;
@@ -13,6 +14,10 @@ public class ModFabric implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		setGlobalConstants();
 		ModCommon.init();
 
