@@ -4,10 +4,8 @@ import com.natamus.fixedanvilrepaircost.events.RepairEvent;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.event.AnvilUpdateEvent;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 import oshi.util.tuples.Triplet;
 
-@EventBusSubscriber
 public class NeoForgeRepairEvent {
 	@SubscribeEvent
 	public static void onRepairEvent(AnvilUpdateEvent e) {
