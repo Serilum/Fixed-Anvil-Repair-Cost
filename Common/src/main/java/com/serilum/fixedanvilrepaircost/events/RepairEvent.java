@@ -1,6 +1,6 @@
-package com.natamus.fixedanvilrepaircost.events;
+package com.serilum.fixedanvilrepaircost.events;
 
-import com.natamus.fixedanvilrepaircost.config.ConfigHandler;
+import com.serilum.fixedanvilrepaircost.config.ConfigHandler;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AnvilMenu;
 import net.minecraft.world.item.Item;
