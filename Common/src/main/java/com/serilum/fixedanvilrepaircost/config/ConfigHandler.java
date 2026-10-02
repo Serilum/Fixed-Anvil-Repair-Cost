@@ -1,7 +1,7 @@
-package com.natamus.fixedanvilrepaircost.config;
+package com.serilum.fixedanvilrepaircost.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.fixedanvilrepaircost.util.Reference;
+import com.serilum.fixedanvilrepaircost.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

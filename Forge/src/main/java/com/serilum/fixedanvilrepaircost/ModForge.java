@@ -1,10 +1,10 @@
-package com.natamus.fixedanvilrepaircost;
+package com.serilum.fixedanvilrepaircost;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.fixedanvilrepaircost.forge.config.IntegrateForgeConfig;
-import com.natamus.fixedanvilrepaircost.forge.events.ForgeRepairEvent;
-import com.natamus.fixedanvilrepaircost.util.Reference;
+import com.serilum.fixedanvilrepaircost.forge.config.IntegrateForgeConfig;
+import com.serilum.fixedanvilrepaircost.forge.events.ForgeRepairEvent;
+import com.serilum.fixedanvilrepaircost.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeRepairEvent.registerEventsInBus();
+		ForgeRepairEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {
