@@ -1,7 +1,7 @@
-package com.natamus.fixedanvilrepaircost.forge.config;
+package com.serilum.fixedanvilrepaircost.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.fixedanvilrepaircost.util.Reference;
+import com.serilum.fixedanvilrepaircost.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

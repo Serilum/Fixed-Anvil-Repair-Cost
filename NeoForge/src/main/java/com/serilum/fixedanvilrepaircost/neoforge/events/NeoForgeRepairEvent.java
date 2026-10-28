@@ -1,6 +1,6 @@
-package com.natamus.fixedanvilrepaircost.neoforge.events;
+package com.serilum.fixedanvilrepaircost.neoforge.events;
 
-import com.natamus.fixedanvilrepaircost.events.RepairEvent;
+import com.serilum.fixedanvilrepaircost.events.RepairEvent;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.event.AnvilUpdateEvent;
 import net.neoforged.bus.api.SubscribeEvent;

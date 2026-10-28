@@ -1,10 +1,10 @@
-package com.natamus.fixedanvilrepaircost;
+package com.serilum.fixedanvilrepaircost;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveAnvilEvents;
-import com.natamus.fixedanvilrepaircost.events.RepairEvent;
-import com.natamus.fixedanvilrepaircost.util.Reference;
+import com.serilum.fixedanvilrepaircost.events.RepairEvent;
+import com.serilum.fixedanvilrepaircost.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AnvilMenu;

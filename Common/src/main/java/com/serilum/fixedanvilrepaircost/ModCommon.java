@@ -1,6 +1,6 @@
-package com.natamus.fixedanvilrepaircost;
+package com.serilum.fixedanvilrepaircost;
 
-import com.natamus.fixedanvilrepaircost.config.ConfigHandler;
+import com.serilum.fixedanvilrepaircost.config.ConfigHandler;
 
 public class ModCommon {
 
