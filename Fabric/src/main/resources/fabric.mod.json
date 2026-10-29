@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fixedanvilrepaircost",
-  "version": "3.6",
+  "version": "4.0",
 
   "name": "Fixed Anvil Repair Cost",
   "description": "Allows setting the level and material cost of repairing an item on an anvil to always be the same configurable amount and also allows setting how much percent is repaired.",
@@ -23,13 +23,13 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=8.40"
+    "collective": ">=8.69"
   },
 
   "custom": {
     "modmenu": {
       "links": {
-        "Donate <3" : "https://serilum.com/donate"
+        "❤ Patreon" : "https://link.serilum.com/patreon"
       }
     }
   },
@@ -41,7 +41,6 @@
 	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
-	  " Andrean Olgo",
 	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
